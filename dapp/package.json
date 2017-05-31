@@ -1,0 +1,17 @@
+{
+  "name": "z14",
+  "version": "0.1.0",
+  "author": "Max Riveiro <kavu13@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "solium --dir contracts/"
+  },
+  "dependencies": {
+    "solc": "^0.4.11",
+    "web3": "^0.19.0"
+  },
+  "devDependencies": {
+    "solium": "^0.2.2"
+  }
+}

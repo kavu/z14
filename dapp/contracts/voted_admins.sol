@@ -63,7 +63,7 @@ contract VotedAdmins is ValidatorSet {
   uint256 private _maxVotingDays;
 
   mapping(address => User)   public  users;
-  mapping(address => Voting) public votings;
+  mapping(address => Voting) private votings;
 
   // Constructor
   function VotedAdmins(uint8 _min_days, uint8 _max_days, uint8 _percent) {

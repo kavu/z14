@@ -1,0 +1,6 @@
+[submodule "geth-testnet-docker"]
+	path = geth-testnet-docker
+	url = https://github.com/kavu/geth-testnet-docker
+[submodule "block-explorer"]
+	path = block-explorer
+	url = https://github.com/etherparty/explorer
